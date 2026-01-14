@@ -7,9 +7,9 @@ The fourth column has the log of the dipolar component of the pulsar magnetic fi
 The rest of the columns are different transitions between 1000 angstrom and 100 um.  The number for each model is the cooling power of that transition at the given epoch.
 
 There are 2 lists at each epoch.  
-One where only lines with > 1% of the total cooling power in that model at that epoch is recorded.  These files are names "LineCooling_nyr.csv"
+One where only lines with > 1% of the total cooling power in that model at that epoch is recorded.  These files are named "LineCooling_#yr.csv".
+The other list contains every cooling transition from every model, with no cutoff.  These files are named "LineCooling_#yr_nocut.csv".
 
-
-For model information about these transitions and their implications, see Omand (2026) .
+For model information about these transitions and their implications, see Omand (2026). (https://ui.adsabs.harvard.edu/abs/2026arXiv260103373O/abstract)
 For more information about the models and their assumptions, see Omand and Jerkstrand (2023). (https://ui.adsabs.harvard.edu/abs/2023A%26A...673A.107O/abstract)
 If you use data from this repository, please cite both of the above works.
